@@ -25,7 +25,7 @@ boot || goto custom_exit
 
 :option_two
 kernel https://boot.netboot.xyz/memdisk raw iso
-initrd http://path.to/iso
+initrd https://github.com/Security-Onion-Solutions/security-onion/releases/download/v16.04.5.6_20190110/securityonion-16.04.5.6.iso
 boot || goto custom_exit
 
 :option_three
